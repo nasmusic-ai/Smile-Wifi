@@ -1,0 +1,7 @@
+{
+  "name": "Smile Wifi Portal",
+  "description": "A mobile-first offline local portal for apps, media, weather, and entertainment, featuring a smart AI-powered search and modern glassmorphism UI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
