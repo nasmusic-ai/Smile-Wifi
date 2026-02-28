@@ -7,7 +7,7 @@ export const PORTAL_APPS: AppItem[] = [
   // Slide 1
   { id: '1', name: 'Timesquare', href: 'https://timesquarev3.vercel.app/', img: 'https://github.com/VTQIT/metal-gear-map/blob/main/logo.png?raw=true' },
   { id: '2', name: 'Musify', href: 'https://musify-decentralized-music-streaming-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/musify.png?raw=true' },
-  { id: '3', name: 'Meet d Mayor', href: 'https://hon-philip-a-pichay-profile-928835257611.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/cantilan.png?raw=true' },
+  { id: '3', name: 'Meet d Mayor', href: 'https://mayor-dusky.vercel.app/', img: 'https://github.com/nasmusic-ai/RAW/blob/main/cantilan.png?raw=true' },
   { id: '4', name: 'Reeltalk', href: 'https://reeltalk-decentralized-mesh-video-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/reeltalk.png?raw=true' },
   { id: '5', name: 'Karaoke', href: 'https://singverse-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/singverse.png?raw=true' },
   { id: '6', name: 'Musify', href: 'https://smcci-saint-michael-college-cantilan-incorporated-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/smcci.png?raw=true' },
@@ -26,8 +26,8 @@ export const PORTAL_APPS: AppItem[] = [
   { id: '17', name: 'World News', href: 'https://www.wionews.com/', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFu2IRkcatJm_VOOyYX_YJM4mpo8Ks4RU4w&s' },
   { id: '18', name: 'Cryptocurrency', href: '#', img: 'https://github.com/nasmusic-ai/RAW/blob/main/cryptocurrency.png?raw=true' },
   // Slide 4
-  { id: '19', name: 'Movies', href: '#', img: 'https://picsum.photos/id/28/200/200' },
-  { id: '20', name: 'News', href: '#', img: 'https://picsum.photos/id/29/200/200' },
+  { id: '19', name: 'Mc-berdie', href: 'https://mc-birdie.vercel.app/', img: 'https://github.com/VTQIT/metal-gear-map/blob/main/mcberdi-logo.png?raw=true' },
+  { id: '20', name: 'Blackhole', href: 'https://blackout-game-ten.vercel.app/', img: 'https://github.com/VTQIT/metal-gear-map/blob/main/blackhole.jpg?raw=true' },
   { id: '21', name: 'YouTube', href: 'https://youtube.com', img: 'https://picsum.photos/id/30/200/200', external: true },
   { id: '22', name: 'Netflix', href: 'https://netflix.com', img: 'https://picsum.photos/id/31/200/200', external: true },
   { id: '23', name: 'Twitter', href: 'https://x.com', img: 'https://picsum.photos/id/32/200/200', external: true },
