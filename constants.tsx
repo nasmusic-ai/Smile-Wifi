@@ -9,7 +9,7 @@ export const PORTAL_APPS: AppItem[] = [
   { id: '2', name: 'Musify', href: 'https://musify-decentralized-music-streaming-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/musify.png?raw=true' },
   { id: '3', name: 'Meet d Mayor', href: 'https://mayor-dusky.vercel.app/', img: 'https://github.com/nasmusic-ai/RAW/blob/main/cantilan.png?raw=true' },
   { id: '4', name: 'Reeltalk', href: 'https://reeltalk-decentralized-mesh-video-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/reeltalk.png?raw=true' },
-  { id: '5', name: 'Karaoke', href: 'https://singverse-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/singverse.png?raw=true' },
+  { id: '5', name: 'Karaoke', href: 'https://karaoketube-nine.vercel.app/', img: 'https://github.com/nasmusic-ai/RAW/blob/main/singverse.png?raw=true' },
   { id: '6', name: 'Musify', href: 'https://smcci-saint-michael-college-cantilan-incorporated-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/smcci.png?raw=true' },
   // Slide 2
   { id: '7', name: 'MuniServe', href: 'https://muniserve-philippine-municipal-services-portal-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/Municipal.png?raw=true' },
