@@ -1,15 +1,26 @@
-
-import React from 'react';
+import React, { useRef } from 'react';
 
 interface Props {
   onStart: () => void;
 }
 
 const WelcomeOverlay: React.FC<Props> = ({ onStart }) => {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const handleClick = () => {
+    // Play video and audio
+    videoRef.current?.play().catch(() => console.log("Video play blocked"));
+    audioRef.current?.play().catch(() => console.log("Audio play blocked"));
+
+    // Trigger app start
+    onStart();
+  };
+
   return (
     <div 
       className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-black/90 text-center px-6"
-      onClick={onStart}
+      onClick={handleClick}
     >
       <div className="relative group cursor-pointer transition-transform duration-500 hover:scale-105">
         <div className="absolute -inset-4 bg-cyan-500/20 rounded-full blur-xl group-hover:bg-cyan-500/30 transition-all"></div>
@@ -30,6 +41,17 @@ const WelcomeOverlay: React.FC<Props> = ({ onStart }) => {
       <p className="mt-12 text-white/50 text-sm animate-bounce">
         Tap anywhere to enter
       </p>
+
+      {/* Hidden video and audio elements */}
+      <video 
+        ref={videoRef} 
+        src="/welcome-video.mp4" 
+        className="hidden" 
+      />
+      <audio 
+        ref={audioRef} 
+        src="/welcome-sound.mp3"
+      />
     </div>
   );
 };
