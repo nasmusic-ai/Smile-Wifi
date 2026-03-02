@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import WelcomeOverlay from './components/WelcomeOverlay';
 import Sidebar from './components/Sidebar';
 import SearchSection from './components/SearchSection';
@@ -16,8 +15,14 @@ const App: React.FC = () => {
   const [isAllAppsOpen, setIsAllAppsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
+  // Ref for the main video
+  const videoRef = useRef<HTMLVideoElement>(null);
+
   const handleStart = () => {
     setHasStarted(true);
+
+    // Play the Cantilan video when welcome logo is clicked
+    videoRef.current?.play().catch(() => console.log("Video autoplay blocked"));
   };
 
   return (
@@ -33,7 +38,8 @@ const App: React.FC = () => {
       <main className={`flex-1 flex flex-col pt-16 transition-opacity duration-1000 ${hasStarted ? 'opacity-100' : 'opacity-0'}`}>
         <WeatherSection />
         
-        <VideoSection />
+        {/* Pass videoRef to VideoSection */}
+        <VideoSection videoRef={videoRef} />
         
         <SearchSection 
           query={searchQuery} 
