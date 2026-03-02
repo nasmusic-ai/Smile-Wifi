@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const VideoSection: React.FC = () => {
@@ -12,7 +11,10 @@ const VideoSection: React.FC = () => {
             controls
             playsInline
           >
-            <source src="https://raw.githubusercontent.com/nasmusic-ai/RAW/main/smile-ads.mp4" type="video/mp4" />
+            <source 
+              src="https://raw.githubusercontent.com/etherneomdc3-IT/RAW/main/Cantilan.mp4" 
+              type="video/mp4" 
+            />
           </video>
           <div className="absolute top-4 left-4">
             <span className="bg-red-600 text-[10px] font-bold px-2 py-0.5 rounded tracking-tighter uppercase">Live Portal TV</span>
