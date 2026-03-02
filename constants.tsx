@@ -6,7 +6,7 @@ export const APP_VERSION = "v5.0.0";
 export const PORTAL_APPS: AppItem[] = [ 
   // Slide 1
   { id: '1', name: 'Timesquare', href: 'https://timesquarev3.vercel.app/', img: 'https://github.com/VTQIT/metal-gear-map/blob/main/logo.png?raw=true' },
-  { id: '2', name: 'Musify', href: 'https://musify-decentralized-music-streaming-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/musify.png?raw=true' },
+  { id: '2', name: 'Smile Anime', href: 'https://9animetv.to/home', img: 'https://github.com/etherneomdc3-IT/RAW/blob/main/SMILE-ANIME.jpg?raw=true' },
   { id: '3', name: 'Meet d Mayor', href: 'https://mayor-dusky.vercel.app/', img: 'https://github.com/nasmusic-ai/RAW/blob/main/cantilan.png?raw=true' },
   { id: '4', name: 'Reeltalk', href: 'https://reeltalk-decentralized-mesh-video-685872424840.us-west1.run.app', img: 'https://github.com/nasmusic-ai/RAW/blob/main/reeltalk.png?raw=true' },
   { id: '5', name: 'Karaoke', href: 'https://karaoketube-nine.vercel.app/', img: 'https://github.com/nasmusic-ai/RAW/blob/main/singverse.png?raw=true' },
